@@ -1,0 +1,49 @@
+html {
+
+    background: transparent url('background-grid.png') left top repeat scroll;
+
+}
+body {
+    margin : 0;
+    height: 500px;
+}
+div{
+    box-sizing: border-box;
+}
+.one{
+    position: absolute;
+    border: 2px solid blue;
+    height: 25%;
+    width: 50%;
+    background-color: turquoise;
+}
+.two{
+    position: relative;
+    top: 20px;
+    left: 12em;
+    border: 6px groove rgb(0, 255, 34);
+    border-radius: 20%;
+    height: 50%;
+    width: 80%;
+    background: thistle;
+    background-image:url("background-image.jpg");
+    background-size: contain;
+    background-repeat: repeat-y;
+    text-align: center;
+    color: rgb(243, 19, 49);
+    box-shadow: 0 0 10px 10px grey;
+    z-index: 2;
+}
+.three{
+    position: relative;
+    top:-6em;
+    left:25px;
+    border: 2px solid red;
+    font-size: 2em;
+    width: 10em;
+    height: 10em;
+    margin: 1em;
+    z-index: 1;
+    background-color: yellow;
+
+}
